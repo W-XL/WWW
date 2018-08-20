@@ -1,0 +1,376 @@
+<!doctype html>
+<html class="no-js">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="{dede:global.cfg_description/}">
+  <meta name="keywords" content="{dede:global.cfg_keywords/}">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <title>{dede:global.cfg_webname/}</title>
+{dede:include filename='tpl/common/head.php'/}
+<div class="zx-banner" style="position: relative;">
+ <div data-am-widget="slider" class="am-hide-sm am-slider am-slider-a1" data-am-slider='{&quot;directionNav&quot;:false}' >
+  <ul class="am-slides">
+
+  {dede:sql sql="SELECT * FROM photos_url WHERE pid=1513309707895 ORDER BY rank ASC" appname="console"}
+ <li>
+        <img src="[field:url/]" class="am-hide-sm" width="100%">	               
+      </li>
+{/dede:sql}
+
+
+  </ul>
+</div>
+ <div data-am-widget="slider" class="am-show-sm am-slider am-slider-a1" data-am-slider='{&quot;directionNav&quot;:false}' >
+  <ul class="am-slides">
+
+ {dede:sql sql="SELECT * FROM photos_url WHERE pid=1513326670947 ORDER BY rank ASC" appname="console"}
+ <li>
+        <img src="[field:url/]" class="am-show-sm" width="100%">
+      </li>
+{/dede:sql}
+
+
+  </ul>
+</div>
+
+</div>
+<h1 class="seowhy">糕小姐国际烘焙，就业创业的首选之地</h1>
+<!--<div class="zx-intro"><span class="xuehongbei">1分钟</span> 测测你适合什么课程<br>糕小姐资深教师团队为您量身定制<button class="zx-intro-button am-center" onclick="one()">GO</button><!--<br><p>Learn baking good teacher is very important <br>to have the technology to be patient</p></div>-->
+<!--<div class="zx-intro-img"><img src="https://cdn.lendata.net/gao/webp/intro-img.jpg" class="am-center zx-intro-img-a"></div>-->
+<!--<div class="one"><img src="https://cdn.lendata.net/gao/webp/one.png" class="am-center" /></div>-->
+
+<div class="zx-course">
+
+<div class="zx-intro-btn" >糕小姐培训课程<p class="zx-tpl-index-title-small">/ The courses of misscake</p></div>
+<!--<div class="swiper-tips am-show-sm">Tips:<span style="color:red">左右滑动</span>可切换不同课程哦!</div>-->
+<div class="zx-course-nav-box am-center">
+<img src="https://cdn.lendata.net/gao/webp/phone-1.png" class="zx-course-nav-phone" >
+<div class="am-cf"></div>
+<img src="https://cdn.lendata.net/gao/webp/star-01.png">
+<div class="am-cf"></div>
+<div class="zx-course-nav-l am-fl">/TRAINING COURSES</div><div class="zx-course-nav-r am-fr"><a href="/html/course">更多课程>></a></div>
+<div class="am-cf"></div>
+</div>
+<div class="zx-course-box am-center ">
+<!--<ul class="am-avg-sm-1 am-avg-md-5 am-avg-lg-5">
+  <li><div class="zx-course-card am-center"><img src="https://cdn.lendata.net/gao/webp/c-01.jpg" class="zx-course-user"><a class="am-btn am-btn-danger am-round am-center zx-course-card-btn-1"  href="http://www.bing.com" target="_blank">开店创业</a><div class="zx-course-detail-box"><div class="am-fl"><div class="zx-course-title">创业精品班</div><div class="zx-course-title-sm">Entrepreneurship class</div></div><div class="am-fr"><div class="zx-course-day">39天</div></div></div><div class="am-cf"></div><a class="am-btn am-btn-danger am-round am-center zx-course-btn-2"  href="http://www.bing.com" target="_blank">最新优惠价 ￥ 11980</a></div></li>
+  <li><div class="zx-course-card am-center"><img src="https://cdn.lendata.net/gao/webp/course-user.jpg" class="zx-course-user"><a class="am-btn am-btn-danger am-round am-center zx-course-card-btn-1"  href="http://www.bing.com" target="_blank">私房创业</a><div class="zx-course-detail-box"><div class="am-fl"><div class="zx-course-title">私房蛋糕精品班</div><div class="zx-course-title-sm">Entrepreneurship class</div></div><div class="am-fr"><div class="zx-course-day">28天</div></div></div><div class="am-cf"></div><a class="am-btn am-btn-danger am-round am-center zx-course-btn-2"  href="http://www.bing.com" target="_blank">最新优惠价 ￥ 7800</a></div></li>
+  <li><div class="zx-course-card am-center"><img src="https://cdn.lendata.net/gao/webp/c-03.jpg" class="zx-course-user"><a class="am-btn am-btn-danger am-round am-center zx-course-card-btn-1"  href="http://www.bing.com" target="_blank">高薪就业</a><div class="zx-course-detail-box"><div class="am-fl"><div class="zx-course-title">法式西点精品班</div><div class="zx-course-title-sm">Entrepreneurship class</div></div><div class="am-fr"><div class="zx-course-day">7天</div></div></div><div class="am-cf"></div><a class="am-btn am-btn-danger am-round am-center zx-course-btn-2"  href="http://www.bing.com" target="_blank">最新优惠价 ￥ 6880</a></div></li>
+  <li><div class="zx-course-card am-center"><img src="https://cdn.lendata.net/gao/webp/c-04.jpg" class="zx-course-user"><a class="am-btn am-btn-danger am-round am-center zx-course-card-btn-1"  href="http://www.bing.com" target="_blank">短期速成</a><div class="zx-course-detail-box"><div class="am-fl"><div class="zx-course-title">网红喜茶修炼班</div><div class="zx-course-title-sm">Entrepreneurship class</div></div><div class="am-fr"><div class="zx-course-day">7天</div></div></div><div class="am-cf"></div><a class="am-btn am-btn-danger am-round am-center zx-course-btn-2"  href="http://www.bing.com" target="_blank">最新优惠价 ￥ 9800</a></div></li>
+  <li><div class="zx-course-card am-center"><img src="https://cdn.lendata.net/gao/webp/c-05.jpg" class="zx-course-user"><a class="am-btn am-btn-danger am-round am-center zx-course-card-btn-1"  href="http://www.bing.com" target="_blank">免费体验</a><div class="zx-course-detail-box"><div class="am-fl"><div class="zx-course-title">先体验再决定</div><div class="zx-course-title-sm">Entrepreneurship class</div></div><div class="am-fr"><div class="zx-course-day">1天</div></div></div><div class="am-cf"></div><a class="am-btn am-btn-danger am-round am-center zx-course-btn-2"  href="http://www.bing.com" target="_blank">免费体验一天</a></div></li>
+  
+ 
+  
+</ul>-->
+ <ul data-am-widget="gallery" class="am-gallery am-avg-sm-2
+  am-avg-md-2 am-avg-lg-5 am-gallery-imgbordered" data-am-gallery="{ pureview: false }" >
+     {dede:sql sql="SELECT * FROM course_list  ORDER BY time DESC" appname="console"}
+<li>
+        <div class="am-gallery-item">
+            <a href="/nvasystem/index.php/courseview?id=[field:courseid/]" class="">
+            <!--<a href="[field:arcurl/]" class="">-->
+               <img src="[field:coursephoto/]">
+                <div class="zxzxzx"><h3>[field:name/]</h3><!--<p>[field:description function="cn_substr(@me,50)"/]...</p>--><br><button type="button" class="am-btn am-btn-default am-btn-xs am-round am-center ">查看课程 -></button></div>
+                <!--<div class="am-gallery-desc">[field:pubdate function=strftime('%Y-%m-%d',@me)/]</div>-->
+            </a>
+        </div>
+      </li>
+{/dede:sql}
+
+  </ul>
+</div>
+  <!--<div class="swiper-container am-show-sm">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><div class="zx-course-card am-center"><img src="https://cdn.lendata.net/gao/webp/c-01.jpg" class="zx-course-user"><a class="am-btn am-btn-danger am-round am-center zx-course-card-btn-1"  href="http://www.bing.com" target="_blank">开店创业</a><div class="zx-course-detail-box"><div class="am-fl"><div class="zx-course-title">创业精品班</div><div class="zx-course-title-sm">Entrepreneurship class</div></div><div class="am-fr"><div class="zx-course-day">39天</div></div></div><div class="am-cf"></div><a class="am-btn am-btn-danger am-round am-center zx-course-btn-2"  href="http://www.bing.com" target="_blank">最新优惠价 ￥ 11980</a></div></div>
+            <div class="swiper-slide "><div class="zx-course-card am-center"><img src="https://cdn.lendata.net/gao/webp/course-user.jpg" class="zx-course-user"><a class="am-btn am-btn-danger am-round am-center zx-course-card-btn-1"  href="http://www.bing.com" target="_blank">私房创业</a><div class="zx-course-detail-box"><div class="am-fl"><div class="zx-course-title">私房蛋糕精品班</div><div class="zx-course-title-sm">Entrepreneurship class</div></div><div class="am-fr"><div class="zx-course-day">28天</div></div></div><div class="am-cf"></div><a class="am-btn am-btn-danger am-round am-center zx-course-btn-2"  href="http://www.bing.com" target="_blank">最新优惠价 ￥ 7800</a></div></div>
+            <div class="swiper-slide "><div class="zx-course-card am-center"><img src="https://cdn.lendata.net/gao/webp/c-03.jpg" class="zx-course-user"><a class="am-btn am-btn-danger am-round am-center zx-course-card-btn-1"  href="http://www.bing.com" target="_blank">高薪就业</a><div class="zx-course-detail-box"><div class="am-fl"><div class="zx-course-title">法式西点精品班</div><div class="zx-course-title-sm">Entrepreneurship class</div></div><div class="am-fr"><div class="zx-course-day">7天</div></div></div><div class="am-cf"></div><a class="am-btn am-btn-danger am-round am-center zx-course-btn-2"  href="http://www.bing.com" target="_blank">最新优惠价 ￥ 6880</a></div></div>
+            <div class="swiper-slide "><div class="zx-course-card am-center"><img src="https://cdn.lendata.net/gao/webp/c-04.jpg" class="zx-course-user"><a class="am-btn am-btn-danger am-round am-center zx-course-card-btn-1"  href="http://www.bing.com" target="_blank">短期速成</a><div class="zx-course-detail-box"><div class="am-fl"><div class="zx-course-title">网红喜茶修炼班</div><div class="zx-course-title-sm">Entrepreneurship class</div></div><div class="am-fr"><div class="zx-course-day">7天</div></div></div><div class="am-cf"></div><a class="am-btn am-btn-danger am-round am-center zx-course-btn-2"  href="http://www.bing.com" target="_blank">最新优惠价 ￥ 9800</a></div></div>
+            <div class="swiper-slide "><div class="zx-course-card am-center"><img src="https://cdn.lendata.net/gao/webp/c-05.jpg" class="zx-course-user"><a class="am-btn am-btn-danger am-round am-center zx-course-card-btn-1"  href="http://www.bing.com" target="_blank">免费体验</a><div class="zx-course-detail-box"><div class="am-fl"><div class="zx-course-title">先体验再决定</div><div class="zx-course-title-sm">Entrepreneurship class</div></div><div class="am-fr"><div class="zx-course-day">1天</div></div></div><div class="am-cf"></div><a class="am-btn am-btn-danger am-round am-center zx-course-btn-2"  href="http://www.bing.com" target="_blank">免费体验一天</a></div></div>
+           
+            
+        </div>
+        
+        <div class="swiper-pagination "></div>
+        <!-- Add Arrows
+        <div class="swiper-button-next "></div>
+        <div class="swiper-button-prev "></div>
+    </div>--> 
+<a href="/other/zx20171022.html"><img src="https://cdn.lendata.net/gao/webp/one-pc.png" class="am-center am-hide-sm" width="100%"/></a>
+<div class="am-center am-show-sm" style="border-radius:20px;margin:10px;background:#2c1717;box-shadow: 1px 2px 5px #000"><a href="/other/zx20171022.html"><img src="https://cdn.lendata.net/gao/webp/one-m.png" width="100%" class="am-center" /></a></div>
+</div>
+<div class="am-hide-sm">
+<br><br>
+ {dede:sql sql='Select * from cake_archives where typeid=6 limit 0,4' appname='phpb2b'}
+
+ 
+  {/dede:sql}
+<div class=" zx-intro-btn"  >新闻动态<p class="zx-tpl-index-title-small">/ The news of misscake</p></div>
+<div class="zx-news-box am-center">
+<div class="am-g">
+  <div class="am-u-sm-12 am-u-md-4">
+  <section class="am-panel am-panel-default">
+  <header class="am-panel-hd">
+    <h3 class="am-panel-title" style="border-left: 3px solid #ff8400;padding-left:5px;">创业动态 /News</h3>
+  </header>
+  <div class="am-panel-bd">
+    <div data-am-widget="list_news" class="am-list-news am-list-news-default" >
+  <!--列表标题-->
+    
+
+  <div class="am-list-news-bd">
+  <a href="/html/news/"><img src="https://cdn.lendata.net/gao/webp/news-1.jpg" width="100%"></a>
+ <ul class="am-list zx-list-for-am-list">
+  {dede:sql sql='Select * from cake_archives where typeid=6 limit 5' appname='phpb2b'}
+
+   <li><a href="[field:id runphp='yes'] $id=@me;@me='';$url=GetOneArchive($id);@me=$url['arcurl'];[/field:id]" class="am-text-truncate">[field:title function="cn_substr(@me,30)"/]</a></li>
+
+  {/dede:sql}
+
+
+
+</ul>
+
+  </div>
+
+    </div>
+  </div>
+</section></div>
+  <div class="am-u-sm-12 am-u-md-4">
+  <section class="am-panel am-panel-default">
+  <header class="am-panel-hd">
+    <h3 class="am-panel-title" style="border-left: 3px solid #ff8400;padding-left:5px;">烘焙秘方 / Recipe</h3>
+  </header>
+  <div class="am-panel-bd">
+    <div data-am-widget="list_news" class="am-list-news am-list-news-default" >
+  <!--列表标题-->
+    
+
+  <div class="am-list-news-bd">
+   <a href="/html/recipe/"><img src="https://cdn.lendata.net/gao/webp/news-2.jpg" width="100%"></a>
+ <ul class="am-list zx-list-for-am-list">
+  {dede:arclist   titlelen='100' typeid='7' row='5'  orderby='' keyword=''}
+
+  <li><a href="[field:arcurl/]" class="am-text-truncate">[field:title/]</a></li>
+  {/dede:arclist}
+</ul>
+  </div>
+</section>
+  </div>
+  <div class="am-u-sm-12 am-u-md-4">
+  <section class="am-panel am-panel-default">
+  <header class="am-panel-hd">
+    <h3 class="am-panel-title" style="border-left: 3px solid #ff8400;padding-left:5px;">名师解惑 / Key</h3>
+  </header>
+  <div class="am-panel-bd">
+    <div data-am-widget="list_news" class="am-list-news am-list-news-default" >
+  <!--列表标题-->
+    
+
+  <div class="am-list-news-bd">
+   <a href="/html/key/"><img src="https://cdn.lendata.net/gao/webp/news-3.jpg" width="100%"></a>
+ <ul class="am-list zx-list-for-am-list">
+ {dede:arclist   titlelen='100' typeid='8' row='5'  orderby='' keyword=''}
+
+  <li><a href="[field:arcurl/]" class="am-text-truncate">[field:title/]</a></li>
+  {/dede:arclist}
+</ul>
+  </div>
+</section>
+  </div>
+</div>
+</div>
+</div>
+<!-- Swiper -->
+  
+	<br><br>
+	<div class="zx-intro-btn am-center">糕小姐烘焙创业精品班合影<p class="zx-tpl-index-title-small">/ The photos of misscake</p></div>
+	<div class="zx-x-show">
+	
+		<div class="zx-x-show-box am-center">
+		<div class="zx-x-add"></div>
+		 <ul data-am-widget="gallery" class="am-gallery am-avg-sm-2
+  am-avg-md-3 am-avg-lg-4 am-gallery-imgbordered" data-am-gallery="{ pureview: true }" >
+  <li>
+        <div class="am-gallery-item">
+            <a href="https://cdn.lendata.net/gao/image/x/x-6.jpg" class="">
+              <img src="https://cdn.lendata.net/gao/image/x/x-6.jpg"  alt="远方 有一个地方 那里种有我们的梦想"/>
+                <h3 class="am-gallery-title">糕小姐烘焙创业精品班合影</h3>
+                <div class="am-gallery-desc"></div>
+            </a>
+        </div>
+      </li>
+	    <li>
+        <div class="am-gallery-item">
+            <a href="https://cdn.lendata.net/gao/image/x/x-3.jpg" class="">
+              <img src="https://cdn.lendata.net/gao/image/x/x-3.jpg"  alt="远方 有一个地方 那里种有我们的梦想"/>
+                <h3 class="am-gallery-title">与学院学员合影</h3>
+                <div class="am-gallery-desc"></div>
+            </a>
+        </div>
+      </li>
+	    <li>
+        <div class="am-gallery-item">
+            <a href="https://cdn.lendata.net/gao/image/x/x-4.jpg" class="">
+              <img src="https://cdn.lendata.net/gao/image/x/x-4.jpg"  alt="远方 有一个地方 那里种有我们的梦想"/>
+                <h3 class="am-gallery-title">糕小姐考证学员展示</h3>
+                <div class="am-gallery-desc"></div>
+            </a>
+        </div>
+      </li>
+	  <li>
+        <div class="am-gallery-item">
+            <a href="https://cdn.lendata.net/gao/image/x/x-7.jpg" class="">
+              <img src="https://cdn.lendata.net/gao/image/x/x-7.jpg"  alt="远方 有一个地方 那里种有我们的梦想"/>
+                <h3 class="am-gallery-title">糕小姐“千人蛋糕共享盛宴”活动</h3>
+                <div class="am-gallery-desc"></div>
+            </a>
+        </div>
+      </li>
+	   <li>
+        <div class="am-gallery-item">
+            <a href="https://cdn.lendata.net/gao/image/x/x-5.jpg" class="">
+              <img src="https://cdn.lendata.net/gao/image/x/x-5.jpg"  alt="远方 有一个地方 那里种有我们的梦想"/>
+                <h3 class="am-gallery-title">糕小姐"烘焙DIY"活动</h3>
+                <div class="am-gallery-desc"></div>
+            </a>
+        </div>
+      </li>
+	 
+      <li>
+        <div class="am-gallery-item">
+            <a href="https://cdn.lendata.net/gao/image/x/x-1.jpg" class="">
+              <img src="https://cdn.lendata.net/gao/image/x/x-1.jpg"  alt="远方 有一个地方 那里种有我们的梦想"/>
+                <h3 class="am-gallery-title">远方 有一个地方 那里种有我们的梦想</h3>
+                <div class="am-gallery-desc"></div>
+            </a>
+        </div>
+      </li>
+      <li>
+        <div class="am-gallery-item">
+            <a href="https://cdn.lendata.net/gao/image/x/x-2.png" class="">
+              <img src="https://cdn.lendata.net/gao/image/x/x-2.png"  alt="远方 有一个地方 那里种有我们的梦想"/>
+                <h3 class="am-gallery-title">西式面点师鉴定基地</h3>
+                <div class="am-gallery-desc"></div>
+            </a>
+        </div>
+      </li>
+    
+     
+	 
+	  
+	  
+	  <li>
+        <div class="am-gallery-item">
+            <a href="https://cdn.lendata.net/gao/image/x/x-8.jpg" class="">
+              <img src="https://cdn.lendata.net/gao/image/x/x-8.jpg"  alt="远方 有一个地方 那里种有我们的梦想"/>
+                <h3 class="am-gallery-title">西式面点师鉴定基地</h3>
+                <div class="am-gallery-desc"></div>
+            </a>
+        </div>
+      </li>
+	  
+  </ul>
+	
+	</div>
+	</div>
+<div class="zx-intro-btn" >糕小姐学员及作品展示<p class="zx-tpl-index-title-small">/ The news of misscake</p></div><br>
+<!--<img src="https://cdn.lendata.net/gao/webp/star-01.png" class="am-center zx-show-star">
+<div class="zx-show-title">STUDENTS AND WORKS SHOW</div>-->
+<img src="https://cdn.lendata.net/gao/webp/show-01.jpg" width="1200px" class="am-hide-sm am-center"><br>
+<img src="https://cdn.lendata.net/gao/webp/b11.jpg" width="100%" class="am-hide-sm am-center"><br>
+<img src="https://cdn.lendata.net/gao/webp/show-02.jpg" width="1200px" class="am-hide-sm am-center">
+<img src="https://cdn.lendata.net/gao/webp/show-m-1.jpg" width="100%" class="am-show-sm"><br>
+<img src="https://cdn.lendata.net/gao/webp/b123-02.png" width="100%" class="am-show-sm am-center"><br>
+<img src="https://cdn.lendata.net/gao/webp/show-m-2.jpg" width="100%" class="am-show-sm"><br>
+<!--<div class="zx-intro-btn am-center">为什么学烘焙大家都选择糕小姐<p class="zx-tpl-index-title-small">/ Why choose misscake</p></div>-->
+<img src="https://cdn.lendata.net/gao/webp/choose-pc.jpg" width="1200px" class="am-hide-sm am-center">
+<img src="https://cdn.lendata.net/gao/webp/choose-m.jpg" width="100%" class="am-show-sm am-center">
+<div class="choose-box am-center">
+<ul class="am-avg-sm-1 am-avg-md-3 am-thumbnails">
+  <li><div class="choose-item-box"><div class="choose-item-left am-fl">优势一<br>烘焙联盟</div><div class="choose-item-right am-fr">所有糕小姐学员，可免费申请加入烘焙联盟，国内独创的报名学习即可开始盈利的模式。</div><div class="am-cf"></div></div></li>
+  <li><div class="choose-item-box"><div class="choose-item-left am-fl">优势二<br>技术更新</div><div class="choose-item-right am-fr">引导潮流趋势，产品不断更新，后续免费教学，让你的产品永远走在最前沿。</div><div class="am-cf"></div></div></li>
+  <li><div class="choose-item-box"><div class="choose-item-left am-fl">优势三<br>一对一指导</div><div class="choose-item-right am-fr">小班制一对一指导，全程实操，教学更贴心，对接受能力差的学员可反复教学，直到熟练操作为止。</div><div class="am-cf"></div></div></li>
+  <li><div class="choose-item-box"><div class="choose-item-left am-fl">优势四<br>开店指导</div><div class="choose-item-right am-fr">免费提供全程创业辅导，学员毕业后免费发放设备原料的清单，24小时免费指导，一次学习终身辅助！</div><div class="am-cf"></div></div></li>
+  <li><div class="choose-item-box"><div class="choose-item-left am-fl">优势五<br>最优学费</div><div class="choose-item-right am-fr">学费最优惠，学员最满意，学习期间所用的工具和原料都由糕小姐免费提供。</div><div class="am-cf"></div></div></li>
+  <li><div class="choose-item-box"><div class="choose-item-left am-fl">优势六<br>学习人性化</div><div class="choose-item-right am-fr">外地学员提供良好的住宿条件，可以免费加班学习，创业课程随到随学。</div><div class="am-cf"></div></div></li>
+  
+</ul>
+</div>
+<div class="icon-title-1">厌倦了朝九晚五，乏而无味的工作<br>学烘焙<br>开间小店或高薪就业<br>过上自己想过的生活</div>
+<div class="icon">
+<ul data-am-widget="gallery" class="am-gallery am-avg-sm-3
+  am-avg-md-6 am-avg-lg-6 am-gallery-default" data-am-gallery="{ pureview: false }" >
+      <li>
+        <div class="am-gallery-item">
+           
+              <img src="https://cdn.lendata.net/gao/webp/icon-1.png"  alt="远方 有一个地方 那里种有我们的梦想"/>
+                <h3 class="am-gallery-title icon-title">福建至大</h3>
+                
+           
+        </div>
+      </li>
+      <li>
+        <div class="am-gallery-item">
+            
+               <img src="https://cdn.lendata.net/gao/webp/icon-2.png"  alt="远方 有一个地方 那里种有我们的梦想"/>
+                <h3 class="am-gallery-title icon-title">环境优良</h3>
+               
+           
+        </div>
+      </li>
+      <li>
+        <div class="am-gallery-item">
+           
+               <img src="https://cdn.lendata.net/gao/webp/icon-3.png"  alt="远方 有一个地方 那里种有我们的梦想"/>
+                <h3 class="am-gallery-title icon-title">设备完善</h3>
+                
+           
+        </div>
+      </li>
+      <li>
+        <div class="am-gallery-item">
+            
+               <img src="https://cdn.lendata.net/gao/webp/icon-4.png"  alt="远方 有一个地方 那里种有我们的梦想"/>
+                <h3 class="am-gallery-title icon-title">师资强大</h3>
+                
+           
+        </div>
+      </li>
+	    <li>
+        <div class="am-gallery-item">
+           
+               <img src="https://cdn.lendata.net/gao/webp/icon-5.png"  alt="远方 有一个地方 那里种有我们的梦想"/>
+                <h3 class="am-gallery-title icon-title">开店创业</h3>
+                
+           
+        </div>
+      </li>
+	    <li>
+        <div class="am-gallery-item">
+           
+               <img src="https://cdn.lendata.net/gao/webp/icon-6.png"  alt="远方 有一个地方 那里种有我们的梦想"/>
+                <h3 class="am-gallery-title icon-title">高薪就业</h3>
+                
+           
+        </div>
+      </li>
+  </ul>
+  </div>
+  <div class="icon-title-2">糕小姐国际烘焙培训课程，<span style="color:red">0</span>基础，<span style="color:red">0</span>门槛，创业指导，走进糕小姐，助你成就未来！
+</div>
+<img src="https://cdn.lendata.net/gao/webp/education-pc.jpg" class="am-hide-sm" width="100%">	
+        <img src="https://cdn.lendata.net/gao/webp/education-m.jpg" class="am-show-sm" width="100%">	
+<!--<div class="zx-enroll"><div class="zx-enroll-box am-center"><div class="zx-enroll-title-box"><img src="https://cdn.lendata.net/gao/webp/enroll-img-1.png" class="zx-enroll-title-img am-center"><div class="zx-enroll-title am-fl">查询学费</div></div><div class="am-cf"></div><div class="zx-enroll-input-box"><input type="text" id="user" class="am-form-field am-round zx-enroll-input" placeholder="请输入姓名"/><input type="text" class="am-form-field am-round zx-enroll-input" id="phone" placeholder="请输入电话"/><div class="am-form-group" style="margin-left:5px">-->
+      <!--<label for="course">选择查询课程</label>-->
+      <!--<select id="course">-->
+	  <!--{dede:arclist  typeid='2' titlelen='' infolen='' row='99'}-->
+      <!---->
+        <!--<option value="[field:title/]">[field:title/]</option>-->
+        <!--{/dede:arclist}-->
+      <!--</select>-->
+      <!--<span class="am-form-caret"></span>-->
+    <!--</div>-->
+    <a class="am-btn am-btn-danger am-round zx-enroll-input-sumbit" href="javascript:void(0);" onclick="query(1);">点击查询</a></div></div></div>
+	<div class="ac" style="z-index:102400000000;position:fixed;bottom:80px;right:10px;"><a href="/activity.html"><img src="/ac.gif" width="80px"/></a></div>
+{dede:include filename='tpl/common/footer.php' /}
