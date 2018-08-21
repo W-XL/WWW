@@ -1,0 +1,1 @@
+<li><img src="[field:url/]" width="554" height="284" alt="{$b.title}"/></li>

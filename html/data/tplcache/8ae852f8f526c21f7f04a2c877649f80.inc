@@ -1,0 +1,1 @@
+<div class="swiper-slide"><div class="zx-course-card am-center"><img src="[field:url/]" class="zx-course-user"  width="554" height="284" alt="{$b.title}"></div></div>

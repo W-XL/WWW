@@ -1,0 +1,1 @@
+<li><a href="{dede:field name='arcurl'/}" class="am-text-truncate">{dede:field name='title'/}</a></li>

@@ -1,0 +1,1 @@
+<li><a href="[field:arcurl/]" class="am-text-truncate">[field:title/]</a></li>
