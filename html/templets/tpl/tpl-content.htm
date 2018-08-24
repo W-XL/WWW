@@ -1,0 +1,23 @@
+<!doctype html>
+<html class="no-js">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="{dede:field.description/}">
+  <meta name="keywords" content="{dede:field.keywords/}">
+ 
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <title>{dede:field.title /}_{dede:global.cfg_webname/}</title>
+
+{dede:include filename='tpl/common/head.php'/}
+<div class="tpl-content-banner-box" ><div class="am-center tpl-content-banner"><h1 class="tpl-content-banner-title">{dede:field.title /}</h1><p class="tpl-content-banner-title-p">内容导读 : {dede:field.description /}...</p></div></div>
+<div class="am-center tpl-content-box"><nav class="tpl-nav">当前位置 : <a href="/">首页</a>-><a href="{dede:type row=1}[field:typelink /]{/dede:type}">{dede:field.typename/}</a>-><span style="color:#888">{dede:field.title /}</span></nav><hr/><div class="tpl-content-body ">{dede:field.body/}</div><div class="tpl-content-nav-box"><div class="tpl-content-nav-title">其它{dede:field.typename/}</div><hr/>
+{dede:arclist typeid='' titlelen=42 row=99}
+<div class="tpl-nav-detail-box">
+ <img src='[field:litpic/]' class="tpl-nav-img" alt='[field:title function='html2text(@me)'/]'/><div class="tpl-nav-link"><a href="[field:arcurl/]">[field:title/]</a></div>
+ <div class="am-cf"></div>
+ </div>
+{/dede:arclist}
+</div></div>
+<div class="am-cf"></div>
+{dede:include filename='tpl/common/footer.php'/}

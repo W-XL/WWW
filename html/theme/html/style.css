@@ -1,0 +1,42 @@
+.code{
+	position:absolute;
+	margin-top:-20px;
+	width:125px;
+	height:80px;
+	background:red;
+	right:20px;
+	color:#fff;
+	font-size:2rem;
+	text-align:center;
+	padding-top:5px;
+}
+.title{
+	margin:10px;
+	font-size:1.8rem;
+	font-weight:bold
+}
+.price{
+	margin:10px;
+	font-size:1.7rem;
+	font-weight:bold;
+	color:red
+}
+.oldprice{
+	color:#ccc;
+	margin-left:10px;
+}
+.code-small{
+	font-size:1.2rem;
+}
+.time{
+	margin:10px;
+}
+.he{
+	width:100%;
+	font-size:3rem;
+	color:red;
+	text-align:center;
+}
+.er-span{
+	text-align:center
+}

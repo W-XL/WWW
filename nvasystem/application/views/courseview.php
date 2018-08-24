@@ -241,27 +241,27 @@
 
 
 </div>-->
-        <?php foreach ($photos_data as $rowb) {
-            ?>
-            <div class="small_content"><?php echo $rowb['content']; ?></div>
-            <h2 style="text-align:center;color:orange;font-size:1.8rem"><?php echo $rowb['name']; ?></h2>
+        <?php
+            foreach ($photos_data as $rowb) {
+                ?>
+                <div class="small_content"><?php echo $rowb['content']; ?></div>
+                <h2 style="text-align:center;color:orange;font-size:1.8rem"><?php echo $rowb['name']; ?></h2>
 
-            <div data-am-widget="slider" class="am-slider am-slider-default" data-am-slider='{}'>
-                <ul class="am-slides">
-                    <?php $zxdata = $rowb['url_data'];
-                    foreach ($zxdata as $rowc) {
-                        ?>
-                        <li>
-                            <img src="<?php echo $rowc; ?>">
+                <div data-am-widget="slider" class="am-slider am-slider-default" data-am-slider='{}'>
+                    <ul class="am-slides">
+                        <?php $zxdata = $rowb['url_data'];
+                        foreach ($zxdata as $rowc) {
+                            ?>
+                            <li>
+                                <img src="<?php echo $rowc; ?>">
 
-                        </li>
-                    <?php } ?>
+                            </li>
+                        <?php } ?>
 
-                </ul>
-            </div>
+                    </ul>
+                </div>
 
-        <?php } ?>
-
+            <?php }?>
         <br>
         <div class="photos" id="photos" style="display:none">
             <p><img src="/uploads/allimg/20170927/1506514438500929.jpg" title="1506514438500929.jpg"/></p>
@@ -541,24 +541,37 @@
     </div>
     <div class="clear"></div>
 </div>
-<div class="xuanfu-left-box am-hide-sm"><img class="animated pulse infinite"
-                                             src="https://cdn.lendata.net/gao/webp/free-ad.png" width="100%"
-                                             style="margin-bottom:10px;">
+<div class="xuanfu-left-box am-hide-sm" style="bottom: 6px;"><img class="animated pulse infinite"
+                                                                  src="https://cdn.lendata.net/gao/webp/free-ad.png" width="100%"
+                                                                  style="margin-bottom:10px;">
     <div class="xuanfu-left-nav">
-        <ul class="am-list">
+        <ul class="am-list" style="line-height: 1;margin-bottom: 0.8rem">
             </li>
-            <li ><a href="/nvasystem/index.php/courseview?id=11">烘焙创业精品班</a></li>
-            <li><a href="/nvasystem/index.php/courseview?id=18">流行甜品班</a></li>
-            <li><a href="/nvasystem/index.php/courseview?id=14">高级翻糖班</a></li>
-            <li><a href="/nvasystem/index.php/courseview?id=16">高级软欧班</a></li>
-            <li><a href="/nvasystem/index.php/courseview?id=9">艺术蛋糕班</a></li>
+            <!--            <li><a href="/nvasystem/index.php/courseview?id=11">烘焙创业精品班</a></li>-->
+            <!--            <li><a href="/nvasystem/index.php/courseview?id=15">韩式高级裱花班</a>-->
+            <!--            <li><a href="/nvasystem/index.php/courseview?id=17">网红喜茶修炼班</a></li>-->
+            <!--            <li><a href="/nvasystem/index.php/courseview?id=16">高级欧式面包班</a></li>-->
+            <!--            <li><a href="/nvasystem/index.php/courseview?id=14">高级翻糖艺术班</a></li>-->
+            <!--            <li><a href="/nvasystem/index.php/courseview?id=13">法式西点精品班</a></li>-->
+            <!--            <li><a href="/nvasystem/index.php/courseview?id=12">综合开店创业班</a></li>-->
+            <!--            <li><a href="/nvasystem/index.php/courseview?id=10">私房蛋糕精品班</a></li>-->
+            <!--            <li><a href="/nvasystem/index.php/courseview?id=9">艺术蛋糕速成班</a></li>-->
+            <!--            <li><a href="/nvasystem/index.php/courseview?id=8">高级烘焙面包班</a></li>-->
+            <li><a href="/nvasystem/index.php/courseview?id=10">流行私房班</a></li>
+            <li><a href="/nvasystem/index.php/courseview?id=11">精选创业班</a></li>
+            <li><a href="/nvasystem/index.php/courseview?id=12">综合创业班</a></li>
+            <li><a href="/nvasystem/index.php/courseview?id=8">开店全能班</a></li>
+            <li><a href="/nvasystem/index.php/courseview?id=20">尊享全能班</a></li>
+            <li><a href="/nvasystem/index.php/courseview?id=18">流行甜品烘焙班</a></li>
+            <li><a href="/nvasystem/index.php/courseview?id=9">艺术蛋糕裱花班</a></li>
+            <li><a href="/nvasystem/index.php/courseview?id=13">法式西点精品班</a></li>
             <li><a href="/nvasystem/index.php/courseview?id=15">韩式自然花系班</a></li>
-                        <li><a href="/nvasystem/index.php/courseview?id=12">综合开店创业班</a></li>
-                        <li><a href="/nvasystem/index.php/courseview?id=10">私房蛋糕精品班</a></li>
-            <li><a href="/nvasystem/index.php/courseview?id=13">法式西点班</a></li>
-            <li><a href="/nvasystem/index.php/courseview?id=17">时尚水吧饮品班</a></li>
+            <li><a href="/nvasystem/index.php/courseview?id=16">高级软欧班</a></li>
+            <li><a href="/nvasystem/index.php/courseview?id=14">高级翻糖班</a></li>
             <li><a href="/nvasystem/index.php/courseview?id=41">星空巧克力班</a></li>
-            <li><a href="/nvasystem/index.php/courseview?id=8">高级烘焙面包班</a></li>
+            <li><a href="/nvasystem/index.php/courseview?id=17">时尚水吧饮品班</a></li>
+
+
         </ul>
     </div>
 </div>
@@ -574,20 +587,20 @@
         </li>
 
         <li>
-            <a href="/html/course/" class="" style='color: #c8a063;'>
-                <span class="am-icon-graduation-cap"></span>
-                <span class="am-navbar-label">课程安排</span>
-            </a>
-        </li>
-        <li>
             <a href="/" class="" style='color: #c8a063;'>
-                <img style="height: 75px;width: 55px;padding-bottom: 20px" src="https://cdn.lendata.net/gao/xuanfu/images/header.png">
+                <span class="am-icon-home"></span>
+                <span class="am-navbar-label">回到首页</span>
             </a>
         </li>
         <li>
-            <a href="/html/video/" class="" style='color: #c8a063;'>
-                <span class="am-icon-play-circle"></span>
-                <span class="am-navbar-label">免费视频</span>
+            <a onclick="goto(1)" class="" style='color: #c8a063;'>
+                <img style="height: 75px;width: 55px;padding-bottom: 20px" src="https://cdn.lendata.net/gao/xuanfu/images/consult.png">
+            </a>
+        </li>
+        <li>
+            <a onclick="goto(1)" class="" style='color: #c8a063;'>
+                <span class="am-icon-graduation-cap"></span>
+                <span class="am-navbar-label">免费课程</span>
             </a>
         </li>
         <li>
@@ -612,7 +625,7 @@
 <script src="/html/course/new/course.js"></script>
 <!-- Swiper JS -->
 <script src="http://h5.bmoon.cn/gao/swiper/js/swiper.min.js"></script>
-
+<script src="https://cdn.lendata.net/gao/assets/js/course.js"></script>
 <!-- Initialize Swiper -->
 <script>
     var swiper = new Swiper('.swiper-container', {

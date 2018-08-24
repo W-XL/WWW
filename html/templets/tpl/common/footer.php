@@ -1,0 +1,262 @@
+<div class="wave-box">
+
+    <div class="marquee-box marquee-up" id="marquee-box">
+        <div class="marquee">
+            <div class="wave-list-box" id="wave-list-box1">
+                <ul>
+                    <li><img height="60" alt="波浪" src="http://h5.bmoon.cn/gao/footer/wave_02.png"></li>
+                </ul>
+            </div>
+            <div class="wave-list-box" id="wave-list-box2">
+                <ul>
+                    <li><img height="60" alt="波浪" src="http://h5.bmoon.cn/gao/footer/wave_02.png"></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="marquee-box" id="marquee-box3">
+        <div class="marquee">
+            <div class="wave-list-box" id="wave-list-box4">
+                <ul>
+                    <li><img height="60" alt="波浪" src="http://h5.bmoon.cn/gao/footer/wave_01.png"></li>
+                </ul>
+            </div>
+            <div class="wave-list-box" id="wave-list-box5">
+                <ul>
+                    <li><img height="60" alt="波浪" src="http://h5.bmoon.cn/gao/footer/wave_01.png"></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+</div>
+<footer class="zx-footer">
+    <div class="zx-footer-box am-center">
+        <div class="zx-footer-logo"><img src="https://cdn.lendata.net/gao/webp/logo-1.png"></div>
+        <div class="zx-footer-phone"><img src="https://cdn.lendata.net/gao/webp/phone-1.png"></div>
+        <div class="am-cf"></div>
+        <div class="zx-footer-intro-box">
+            <div class="zx-footer-intro-title"><p>糕小姐国际烘焙，就业创业的首选之地</p></div>
+            <div class="zx-footer-intro-title" style='font-size:1.5rem;margin-top:20px;'>
+  				<p>学院地址：福州市仓山区冠浦路140号凤高综合大楼3F<br>全国报名热线：4008-505-969<br>闽ICP备16032112号-1<br>福州糕小姐商贸有限公司</p>
+                <p>Copyright© 版权所有 福州糕小姐商贸有限公司<br>技术支持：唐月文化</p>
+            </div>
+        </div>
+        <div class="zx-footer-qr-box am-hide-sm"><img src="https://cdn.lendata.net/gao/webp/qr-code.png"></div>
+    </div>
+    <div class="am-cf"></div>
+</footer>
+<!-- 侧边栏内容 -->
+<div id="doc-oc-demo3" class="am-offcanvas">
+    <div class="am-offcanvas-bar am-offcanvas-bar-flip">
+        <div class="am-offcanvas-content">
+            <br>
+            <img src="https://cdn.lendata.net/gao/webp/phone-1.png" width="100%">
+            <br><br>
+            <ul class="am-menu-nav am-avg-sm-1">
+
+
+                <li><a class="" href="/">网站首页</a></li>
+                <hr data-am-widget="divider" style="" class="am-divider am-divider-default"/>
+                <li><a class="" href="/html/school">学院实景</a></li>
+                <hr data-am-widget="divider" style="" class="am-divider am-divider-default"/>
+                <li><a class="" href="/html/course">培训课程</a></li>
+                <hr data-am-widget="divider" style="" class="am-divider am-divider-default"/>
+                <li><a class="" href="/html/teacher">名师风采</a></li>
+                <hr data-am-widget="divider" style="" class="am-divider am-divider-default"/>
+                <li><a class="" href="/html/student">学员作品</a></li>
+                <hr data-am-widget="divider" style="" class="am-divider am-divider-default"/>
+                <li><a class="" href="/html/contact">联系我们</a></li>
+                <hr data-am-widget="divider" style="" class="am-divider am-divider-default"/>
+            </ul>
+            <br>
+            <img src="https://cdn.lendata.net/gao/webp/qr-code.png" width="150px;" class="am-fr">
+        </div>
+    </div>
+</div>
+<!--在这里编写你的代码-->
+<div class="c_meau am-hide-sm">
+    <div class="fl">
+        <h4>关注&amp;咨询<br>
+            糕小姐国际烘焙</h4>
+        <div class="fl_o">
+            <!-- <dl class="fl_o_o">
+                <dt><a href="http://wpa.qq.com/msgrd?v=3&uin=921188899&site=qq&menu=yes" target="_blank"> <img
+                                src="https://cdn.lendata.net/gao/xuanfu/images/c_meau_1.png"></a></dt>
+                <dd>QQ在线客服1</dd>
+            </dl>
+            <dl class="fl_o_o">
+                <dt><a href="http://wpa.qq.com/msgrd?v=3&uin=925977957&site=qq&menu=yes" target="_blank"> <img
+                                src="https://cdn.lendata.net/gao/xuanfu/images/c_meau_1.png"></a></dt>
+                <dd>QQ在线客服2</dd>
+            </dl>
+            <dl class="fl_o_o">
+                <dt><a href="/" target="_blank"> <img src="https://cdn.lendata.net/gao/xuanfu/images/c_meau_1.png"></a>
+                </dt>
+                <dd>QQ在线客服3</dd>
+            </dl> -->
+            <dl class="fl_o_o">
+                <dt><a href="/" target="_blank"> <img src="https://cdn.lendata.net/gao/xuanfu/images/c_meau_2.png"> </a>
+                </dt>
+                <dd>新浪微博</dd>
+            </dl>
+            <dl class="fl_o_o">
+                <dt><img src="https://cdn.lendata.net/gao/xuanfu/images/c_meau_3.png"></dt>
+                <dd>微信咨询</dd>
+            </dl>
+
+        </div>
+        <img src="https://cdn.lendata.net/gao/xuanfu/images/c_meau_7.png" style="margin-top:-15px"></div>
+    <div class="fr">
+        <div class="fr_o"><img src="https://cdn.lendata.net/gao/xuanfu/images/c_meau_5.png"></div>
+        <div class="fr_t"><img src="https://cdn.lendata.net/gao/xuanfu/images/c_meau_6.png"></div>
+    </div>
+    <div class="clear"></div>
+</div>
+<div class="xuanfu-left-box am-hide-sm" style="bottom: 6px;"><img class="animated pulse infinite"
+                                             src="https://cdn.lendata.net/gao/webp/free-ad.png" width="100%"
+                                             style="margin-bottom:10px;">
+    <div class="xuanfu-left-nav">
+        <ul class="am-list" style="line-height: 1;margin-bottom: 0.8rem">
+<!--            <li><a href="/nvasystem/index.php/courseview?id=11">烘焙创业精品班</a></li>-->
+<!--            <li><a href="/nvasystem/index.php/courseview?id=15">韩式高级裱花班</a></li>-->
+<!--            <li><a href="/nvasystem/index.php/courseview?id=17">网红喜茶修炼班</a></li>-->
+<!--            <li><a href="/nvasystem/index.php/courseview?id=16">高级欧式面包班</a></li>-->
+<!--            <li><a href="/nvasystem/index.php/courseview?id=14">高级翻糖艺术班</a></li>-->
+<!--            <li><a href="/nvasystem/index.php/courseview?id=13">法式西点精品班</a></li>-->
+<!--            <li><a href="/nvasystem/index.php/courseview?id=12">综合开店创业班</a></li>-->
+<!--            <li><a href="/nvasystem/index.php/courseview?id=10">私房蛋糕精品班</a></li>-->
+<!--            <li><a href="/nvasystem/index.php/courseview?id=9">艺术蛋糕速成班</a></li>-->
+<!--            <li><a href="/nvasystem/index.php/courseview?id=8">高级烘焙面包班</a></li>-->
+            <li><a href="/nvasystem/index.php/courseview?id=10">流行私房班</a></li>
+            <li><a href="/nvasystem/index.php/courseview?id=11">精选创业班</a></li>
+            <li><a href="/nvasystem/index.php/courseview?id=12">综合创业班</a></li>
+            <li><a href="/nvasystem/index.php/courseview?id=8">开店全能班</a></li>
+            <li><a href="/nvasystem/index.php/courseview?id=20">尊享全能班</a></li>
+            <li><a href="/nvasystem/index.php/courseview?id=18">流行甜品烘焙班</a></li>
+            <li><a href="/nvasystem/index.php/courseview?id=9">艺术蛋糕裱花班</a></li>
+            <li><a href="/nvasystem/index.php/courseview?id=13">法式西点精品班</a></li>
+            <li><a href="/nvasystem/index.php/courseview?id=15">韩式自然花系班</a></li>
+            <li><a href="/nvasystem/index.php/courseview?id=16">高级软欧班</a></li>
+            <li><a href="/nvasystem/index.php/courseview?id=14">高级翻糖班</a></li>
+            <li><a href="/nvasystem/index.php/courseview?id=41">星空巧克力班</a></li>
+            <li><a href="/nvasystem/index.php/courseview?id=17">时尚水吧饮品班</a></li>
+        </ul>
+    </div>
+</div>
+<div data-am-widget="navbar" class="am-navbar zx-navbar-bottom-copy am-cf am-navbar-default am-show-sm"
+     id="" style="background-size:1500px 240px;">
+    <!-- <ul class="am-navbar-nav am-cf am-avg-sm-4 zx-footer-navbar"> -->
+          <ul class="am-navbar-nav am-cf am-avg-sm-4" style="background:url(https://cdn.lendata.net/gao/webp/0321-1.png);background-size:1500px;">
+        <li>
+            <a href="tel:4008505969" class="" style='color: #c8a063;'>
+                <span class="am-icon-phone-square"></span>
+                <span class="am-navbar-label">免费电话</span>
+            </a>
+        </li>
+              <li>
+                  <a href="/" class="" style='color: #c8a063;'>
+                      <span class="am-icon-home"></span>
+                      <span class="am-navbar-label">回到首页</span>
+                  </a>
+              </li>
+              <li>
+                  <a onclick="goto(1)" class="" style='color: #c8a063;'>
+                      <img style="height: 75px;width: 55px;padding-bottom: 20px" src="https://cdn.lendata.net/gao/xuanfu/images/consult.png">
+                  </a>
+              </li>
+              <li>
+                  <a onclick="goto(1)" class="" style='color: #c8a063;'>
+                      <span class="am-icon-graduation-cap"></span>
+                      <span class="am-navbar-label">免费课程</span>
+                  </a>
+              </li>
+        <li>
+            <a href="/html/contact/" class="" style='color: #c8a063;'>
+                <span class="am-icon-info"></span>
+                <span class="am-navbar-label">关于我们</span>
+            </a>
+        </li>
+
+    </ul>
+</div>
+          <script type="text/javascript" src="http://z1-pcok6.kuaishangkf.com/bs/ks.j?cI=253445&fI=119315"
+        charset="utf-8"></script>
+<!--[if (gte IE 9)|!(IE)]><!-->
+<script src="http://libs.baidu.com/jquery/1.11.3/jquery.min.js"></script>
+<!--<![endif]-->
+<!--[if lte IE 8 ]>
+<script src="http://libs.baidu.com/jquery/1.11.3/jquery.min.js"></script>
+<script src="http://cdn.staticfile.org/modernizr/2.8.3/modernizr.js"></script>
+<script src="https://cdn.lendata.net/gao/assets/js/amazeui.ie8polyfill.min.js"></script>
+<![endif]-->
+<script src="https://cdn.lendata.net/gao/assets/js/amazeui.min.js"></script>
+<script src="http://h5.bmoon.cn/gao/footer.js"></script>
+<!-- Swiper JS -->
+<script src="http://h5.bmoon.cn/gao/swiper/js/swiper.min.js"></script>
+<script src="https://cdn.lendata.net/gao/assets/js/course.js"></script>
+<!-- Initialize Swiper -->
+<script>
+    function query(model) {
+        switch (model) {
+            case 1:
+                var user = $("#user").val();
+                var phone = $("#phone").val();
+                var course = $("#course").val();
+                if (phone != "") {
+                    $.post("http://h5.misscake888.com/services.php/send_wechat_msg", {
+                        user: user,
+                        phone: phone,
+                        course: course
+                    }, function (result) {
+                        alert(result);
+                    });
+                }
+                else {
+                    alert('您还有信息没有填写哦 暂不能查询价格 请完善信息后重试');
+                }
+                break;
+            default:
+                alert('服务器出错啦');
+        }
+    }
+</script>
+<script>
+    var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        paginationClickable: true,
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev',
+        spaceBetween: 30,
+
+
+    });
+</script>
+<script type="text/javascript">
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 1) {
+            $(".c_meau").stop().show().animate({bottom: '100px'}, 300);
+        }
+        else {
+            $(".c_meau").stop().animate({bottom: '-560px'}, 300);
+        }
+    });
+    $('.c_meau .fr_t').click(function () {
+        $('body,html').animate({scrollTop: 0}, 500);
+        $(".c_meau").animate({bottom: '-380px', opacity: '0'}, 500);
+        return false;
+    });
+</script>
+<script>
+    var _hmt = _hmt || [];
+    (function () {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?d427aa9cf8f44c41e9f46da6bcb032fa";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+</script>
+<script>(function() {var _53code = document.createElement("script");_53code.src = "https://tb.53kf.com/code/code/10176347/1";var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(_53code, s);})();</script>
+</body>
+</html>
