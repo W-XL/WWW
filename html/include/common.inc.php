@@ -13,12 +13,13 @@
 define('DEDE_ENVIRONMENT', 'production');
 
 
-if ( DEDE_ENVIRONMENT == 'production' )
-{
-    error_reporting(E_ALL || ~E_NOTICE);
-} else {
-    error_reporting(E_ALL);
-}
+//if ( DEDE_ENVIRONMENT == 'production' )
+//{
+//    error_reporting(E_ALL || ~E_NOTICE);
+//} else {
+//    error_reporting(E_ALL);
+//}
+error_reporting(0);
 define('DEDEINC', str_replace("\\", '/', dirname(__FILE__) ) );
 define('DEDEROOT', str_replace("\\", '/', substr(DEDEINC,0,-8) ) );
 define('DEDEDATA', DEDEROOT.'/data');
