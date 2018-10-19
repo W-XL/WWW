@@ -7,6 +7,35 @@
     <meta name="keywords" content="{dede:global.cfg_keywords/}">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <title>{dede:global.cfg_webname/}</title>
+    <style>
+        @media screen and (max-width:500px) {
+            /*.am-viewport{*/
+                /*max-height: 300px !important;*/
+            /*}*/
+            /*.am-viewport ul li img{*/
+                /*max-height: 300px !important;*/
+            /*}*/
+            .Navigation{
+                display:block !important;
+            }
+        }
+        .Navigation{
+            display:none;
+        }
+        .Navigation ul{
+            background:url(https://cdn.lendata.net/gao/webp/0321-1.png);
+            background-size:1500px 205px;
+            padding: 0;
+        }
+        .Navigation li{
+            width: 25%;
+            display: inline-block;
+            border-bottom:1px solid #c8a062;
+            border-left:1px solid #c8a062;
+            padding:10px;
+        }
+
+    </style>
     {dede:include filename='tpl/common/head.php'/}
     <div class="zx-banner" style="position: relative;">
         <div data-am-widget="slider" class="am-hide-sm am-slider am-slider-a1"
@@ -41,9 +70,45 @@
     <!--<div class="zx-intro"><span class="xuehongbei">1分钟</span> 测测你适合什么课程<br>糕小姐资深教师团队为您量身定制<button class="zx-intro-button am-center" onclick="one()">GO</button><!--<br><p>Learn baking good teacher is very important <br>to have the technology to be patient</p></div>-->
     <!--<div class="zx-intro-img"><img src="https://cdn.lendata.net/gao/webp/intro-img.jpg" class="am-center zx-intro-img-a"></div>-->
     <!--<div class="one"><img src="https://cdn.lendata.net/gao/webp/one.png" class="am-center" /></div>-->
+    <div class="Navigation " >
+        <ul>
+            <li>
+                <a href="/html/course/">
+                    <img src="https://cdn.lendata.net/gao/image/icon/course.png">
+                </a>
+            </li><li>
+            <a href="/html/teacher/">
+                <img src="https://cdn.lendata.net/gao/image/icon/teacher.png">
+            </a>
+        </li><li>
+            <a href="/html/student/">
+                <img src="https://cdn.lendata.net/gao/image/icon/student.png">
+            </a>
+        </li><li>
+            <a href="/html/school/">
+                <img src="https://cdn.lendata.net/gao/image/icon/school.png">
+            </a>
+        </li><li>
+            <a href="" >
+                <img src="https://cdn.lendata.net/gao/image/icon/advantage.png">
+            </a>
+        </li><li>
+            <a href="/">
+                <img src="https://cdn.lendata.net/gao/image/icon/progress.png">
+            </a>
+        </li><li>
+            <a href="/html/contact/">
+                <img src="https://cdn.lendata.net/gao/image/icon/contact.png">
+            </a>
+        </li><li>
+            <a href="tel:4008505969">
+                <img src="https://cdn.lendata.net/gao/image/icon/tel.png">
+            </a>
+        </li>
+        </ul>
+    </div>
 
     <div class="zx-course">
-
         <div class="zx-intro-btn">糕小姐培训课程<p class="zx-tpl-index-title-small">/ The courses of misscake</p></div>
         <!--<div class="swiper-tips am-show-sm">Tips:<span style="color:red">左右滑动</span>可切换不同课程哦!</div>-->
         <div class="zx-course-nav-box am-center">
