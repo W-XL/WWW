@@ -17,6 +17,8 @@
             /*}*/
             .Navigation{
                 display:block !important;
+                margin-top: -2px;
+                margin-left: -1px;
             }
         }
         .Navigation{
@@ -89,11 +91,12 @@
                 <img src="https://cdn.lendata.net/gao/image/icon/school.png">
             </a>
         </li><li>
-            <a href="" >
+            <!--<a href="#choose-box" >-->
+            <a>
                 <img src="https://cdn.lendata.net/gao/image/icon/advantage.png">
             </a>
         </li><li>
-            <a href="/">
+            <a href="/html/school/">
                 <img src="https://cdn.lendata.net/gao/image/icon/progress.png">
             </a>
         </li><li>
@@ -134,7 +137,7 @@
             <!--过滤6个课程-->
             <ul data-am-widget="gallery" class="am-gallery am-avg-sm-2
             am-avg-md-2 am-avg-lg-5 am-gallery-imgbordered" data-am-gallery="{ pureview: false }">
-            {dede:sql sql="SELECT * FROM course_list ORDER BY FIELD(`courseid`,10,11,12,8,20,18,9,13,15,16,14,41,17)" appname="console"}
+            {dede:sql sql="SELECT * FROM course_list where courseid != 0 ORDER BY FIELD(`courseid`,10,11,12,8,20,18,9,13,15,16,21,14,23,22,17,41)" appname="console"}
             [field:array runphp='yes']if(@me['courseid']=='40')@me='';
             else
             @me="<li><div class='am-gallery-item'><a href='/nvasystem/index.php/courseview?id={@me['courseid']}'><img src='{@me['coursephoto']}'><div class='zxzxzx'><h3>{@me['name']}</h3><br><button type='button' class='am-btn am-btn-default am-btn-xs am-round am-center '>查看课程-></button></div></a></div></li>";
@@ -378,7 +381,7 @@
     <!--<div class="zx-intro-btn am-center">为什么学烘焙大家都选择糕小姐<p class="zx-tpl-index-title-small">/ Why choose misscake</p></div>-->
     <img src="https://cdn.lendata.net/gao/webp/choose-pc.jpg" width="1200px" class="am-hide-sm am-center">
     <img src="https://cdn.lendata.net/gao/webp/choose-m.jpg" width="100%" class="am-show-sm am-center">
-    <div class="choose-box am-center">
+    <div class="choose-box am-center" id="#choose-box">
         <ul class="am-avg-sm-1 am-avg-md-3 am-thumbnails">
             <li>
                 <div class="choose-item-box">
